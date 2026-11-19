@@ -1,0 +1,8 @@
+pandas>=2.0
+numpy>=1.26
+sqlalchemy>=2.0
+pytest>=8.0
+# Production database driver (PostgreSQL):
+# psycopg2-binary>=2.9
+# Cluster path (the joins/aggregations map 1:1 to PySpark groupBy/join):
+# pyspark>=3.5
